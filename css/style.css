@@ -989,9 +989,8 @@ input::-ms-input-placeholder {
 }
 .team .main_team .main_team_content .single_team .single_team_img:hover .single_team_overlay{
     opacity: 1;
-    left: -10px;
-    top: -10px;
-    /* box-shadow: 10px 10px 0px 0px #3bd3ba; */
+    box-shadow: 6px 6px 9px 1px #999;   
+    transition: all 0.6s;     
 }
 
 .team .main_team .main_team_content .single_team .single_team_overlay{
@@ -1027,6 +1026,13 @@ input::-ms-input-placeholder {
 .clinetslogo .main_clinetslogo{
     margin:60px 0px;
     overflow: hidden;
+}
+
+.clinetslogo .main_clinetslogo img:hover {
+    -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
 }
 
 

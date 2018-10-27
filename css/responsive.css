@@ -59,7 +59,7 @@
 }
 
 /* Landscape phones and portrait tablets */
-@media  (max-width: 768px) {
+@media  (max-width: 766px) {
     html {
         font-size: 80%;
     }
@@ -95,12 +95,20 @@
         float: none;
         margin-top:0;
     } 
+    .main_menu_bg .navbar-nav>li>a {
+        background-color: rgba(34, 61, 97, 0.88);
+        padding-top: 15px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        color: #fff;
+    }
 }
 
 
 
 /* Landscape phones and smaller */
-@media (max-width: 479px) {
+@media (max-width: 425px) {
     
     html {
         font-size: 65%;
@@ -115,6 +123,8 @@
     .portfolio .grid_item_overlay p{
         display: none;
     }
+
+ 
 
 }
 
